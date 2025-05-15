@@ -105,10 +105,4 @@ playButton {
   cursor: pointer;
   z-index: 1000;
 }
- myAudio {
-  position: fixed;
-  left: 110px;   
-  bottom: 10px;  
-  z-index: 1000; 
-}
 
