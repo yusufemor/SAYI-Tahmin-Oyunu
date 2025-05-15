@@ -94,8 +94,8 @@ button:hover {
 }
  playButton {
   position: fixed;
-  left: 10px;   /* Sol kenardan 10px içeri */
-  bottom: 10px; /* Alt kenardan 10px yukarı */
+  left: 10px;
+  bottom: 10px;
   padding: 10px 20px;
   font-size: 16px;
   background-color: #4CAF50;
@@ -103,5 +103,6 @@ button:hover {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  z-index: 1000; /* Üstte görünmesi için */
+  z-index: 1000;
 }
+
