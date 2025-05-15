@@ -92,3 +92,16 @@ button {
 button:hover {
   background-color: #45a049;
 }
+ #playButton {
+  position: fixed;
+  left: 10px;   /* Sol kenardan 10px içeri */
+  bottom: 10px; /* Alt kenardan 10px yukarı */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000; /* Üstte görünmesi için */
+}
