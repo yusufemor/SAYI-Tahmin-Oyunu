@@ -92,3 +92,22 @@ button {
 button:hover {
   background-color: #45a049;
 }
+playButton {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+#myAudio {
+  position: fixed;
+  left: 110px;   
+  bottom: 10px;  
+  z-index: 1000; 
+}
